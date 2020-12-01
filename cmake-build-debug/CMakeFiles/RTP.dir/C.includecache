@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ashraful/Desktop/DLL/dll.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+windows.h
+-
+
