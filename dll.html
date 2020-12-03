@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- This file was created with the aha Ansi HTML Adapter. https://github.com/theZiz/aha -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="application/xml+xhtml; charset=UTF-8" />
+<title>DLL-1605001</title>
+</head>
+<body style="color:white; background-color:black">
+<pre>
+                                                                                                     <span style="font-weight:bold;">
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+CRC steps: Piggybacking: Generator polynomial: Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer3 [ &gt; 0.0]:Enter TRACE:</span><span style="color:black;background-color:white;"> In A_init                                                                                           </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:white;"> In B_init                                                                                           </span><span style="font-weight:bold;">
+
+EVENT time: 935.286987,  type: 1, fromlayer3  entity: 1
+</span><span style="color:black;background-color:white;"> In B_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending a new Packet.                                                                               </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Start a timer                                                                                       </span><span style="font-weight:bold;">
+
+EVENT time: 942.652161,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Get Frame Successfully, Total Successful: 1                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Sending Packet to layer3                                                                            </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 945.286987,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:white;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 947.437012,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 951.904297,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 955.286987,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:white;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+
+EVENT time: 964.715393,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Ignore this frame because already get this message.                                                 </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+
+EVENT time: 965.286987,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:white;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 972.178284,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Get Ack Successfully. Total Acknowledgment: 1                                                       </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Stop Timer                                                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 974.305664,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 976.671997,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1408.607056,  type: 1, fromlayer3  entity: 0
+</span><span style="color:black;background-color:white;"> In A_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending a new Packet.                                                                               </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Start a timer                                                                                       </span><span style="font-weight:bold;">
+
+EVENT time: 1412.765625,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Get Frame Successfully, Total Successful: 1                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Sending Packet to layer3                                                                            </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1418.607056,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:white;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1424.445068,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+
+EVENT time: 1426.320312,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Get Ack Successfully. Total Acknowledgment: 1                                                       </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Stop Timer                                                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1497.662354,  type: 1, fromlayer3  entity: 1
+</span><span style="color:black;background-color:white;"> In B_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending a new Packet.                                                                               </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Start a timer                                                                                       </span><span style="font-weight:bold;">
+
+EVENT time: 1504.158569,  type: 1, fromlayer3  entity: 1
+</span><span style="color:black;background-color:white;"> In B_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> ***Drop a packet. Because previous message is transmitting.                                         </span><span style="font-weight:bold;">
+
+EVENT time: 1507.662354,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:white;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1508.882690,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1510.638428,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+
+EVENT time: 1513.516235,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Ignore this ack because already get ack.                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1517.662354,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:white;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+
+EVENT time: 1521.324097,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Get Frame Successfully, Total Successful: 2                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Sending Packet to layer3                                                                            </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1527.662354,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:white;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1530.234863,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1533.280029,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1537.662354,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:white;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1539.468750,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1547.662354,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:white;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+
+EVENT time: 1550.679443,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Ignore this frame because already get this message.                                                 </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+
+EVENT time: 1555.433472,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Get Ack Successfully. Total Acknowledgment: 2                                                       </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Stop Timer                                                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1939.922119,  type: 1, fromlayer3  entity: 0
+</span><span style="color:black;background-color:white;"> In A_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending a new Packet.                                                                               </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Start a timer                                                                                       </span><span style="font-weight:bold;">
+
+EVENT time: 1949.922119,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:white;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+
+EVENT time: 1955.906250,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Get Frame Successfully, Total Successful: 2                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Sending Packet to layer3                                                                            </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1959.922119,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:white;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1963.768188,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+
+EVENT time: 1969.922119,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:white;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+
+EVENT time: 1971.726074,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Ignore this ack because already get ack.                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1976.118530,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Ignore this frame because already get this message.                                                 </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+
+EVENT time: 1979.922119,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:white;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1981.783569,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> Get Ack Successfully. Total Acknowledgment: 2                                                       </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Stop Timer                                                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1986.619019,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:white;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+
+EVENT time: 1996.107178,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:white;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:#3333FF;"> Ignore this ack because already get ack.                                                            </span><span style="font-weight:bold;">
+ Simulator terminated at time 1996.107178
+ after sending 5 frames from layer3
+</span><span style="background-color:lime;"> Statistics                                                                                          </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> A sends 2 frames successfully.                                                                      </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> A receives 2 frames successfully.                                                                   </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> B sends 2 frames successfully.                                                                      </span><span style="font-weight:bold;">
+</span><span style="background-color:lime;"> B receives 2 frames successfully.                                                                   </span><span style="font-weight:bold;">
+</span>
+</pre>
+</body>
+</html>

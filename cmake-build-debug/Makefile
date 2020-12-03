@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/129/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/135/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/135/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -76,27 +76,27 @@ CMAKE_BINARY_DIR = /home/ashraful/Desktop/DLL/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/135/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/135/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named DLL
+
+# Build rule for target.
+DLL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DLL
+.PHONY : DLL
+
+# fast build rule for target.
+DLL/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLL.dir/build.make CMakeFiles/DLL.dir/build
+.PHONY : DLL/fast
+
+#=============================================================================
+# Target rules for targets named crc2
+
+# Build rule for target.
+crc2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crc2
+.PHONY : crc2
+
+# fast build rule for target.
+crc2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crc2.dir/build.make CMakeFiles/crc2.dir/build
+.PHONY : crc2/fast
+
+#=============================================================================
 # Target rules for targets named crc
 
 # Build rule for target.
@@ -143,18 +169,32 @@ crc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crc.dir/build.make CMakeFiles/crc.dir/build
 .PHONY : crc/fast
 
-#=============================================================================
-# Target rules for targets named RTP
+crcGenerator.o: crcGenerator.cpp.o
 
-# Build rule for target.
-RTP: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RTP
-.PHONY : RTP
+.PHONY : crcGenerator.o
 
-# fast build rule for target.
-RTP/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTP.dir/build.make CMakeFiles/RTP.dir/build
-.PHONY : RTP/fast
+# target to build an object file
+crcGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crc2.dir/build.make CMakeFiles/crc2.dir/crcGenerator.cpp.o
+.PHONY : crcGenerator.cpp.o
+
+crcGenerator.i: crcGenerator.cpp.i
+
+.PHONY : crcGenerator.i
+
+# target to preprocess a source file
+crcGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crc2.dir/build.make CMakeFiles/crc2.dir/crcGenerator.cpp.i
+.PHONY : crcGenerator.cpp.i
+
+crcGenerator.s: crcGenerator.cpp.s
+
+.PHONY : crcGenerator.s
+
+# target to generate assembly for a file
+crcGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crc2.dir/build.make CMakeFiles/crc2.dir/crcGenerator.cpp.s
+.PHONY : crcGenerator.cpp.s
 
 crc_test.o: crc_test.c.o
 
@@ -189,7 +229,7 @@ dll.o: dll.c.o
 
 # target to build an object file
 dll.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTP.dir/build.make CMakeFiles/RTP.dir/dll.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLL.dir/build.make CMakeFiles/DLL.dir/dll.c.o
 .PHONY : dll.c.o
 
 dll.i: dll.c.i
@@ -198,7 +238,7 @@ dll.i: dll.c.i
 
 # target to preprocess a source file
 dll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTP.dir/build.make CMakeFiles/RTP.dir/dll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLL.dir/build.make CMakeFiles/DLL.dir/dll.c.i
 .PHONY : dll.c.i
 
 dll.s: dll.c.s
@@ -207,7 +247,7 @@ dll.s: dll.c.s
 
 # target to generate assembly for a file
 dll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTP.dir/build.make CMakeFiles/RTP.dir/dll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLL.dir/build.make CMakeFiles/DLL.dir/dll.c.s
 .PHONY : dll.c.s
 
 # Help Target
@@ -218,8 +258,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... RTP"
+	@echo "... DLL"
 	@echo "... crc"
+	@echo "... crc2"
+	@echo "... crcGenerator.o"
+	@echo "... crcGenerator.i"
+	@echo "... crcGenerator.s"
 	@echo "... crc_test.o"
 	@echo "... crc_test.i"
 	@echo "... crc_test.s"
