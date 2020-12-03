@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- This file was created with the aha Ansi HTML Adapter. https://github.com/theZiz/aha -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="application/xml+xhtml; charset=UTF-8" />
+<title>DLL-1605001-3</title>
+</head>
+<body style="color:white; background-color:black">
+<pre>
+                                                                                                     <span style="font-weight:bold;">
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+CRC steps: Piggybacking: Generator polynomial: Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer3 [ &gt; 0.0]:Enter TRACE:</span><span style="color:black;background-color:yellow;"> In A_init                                                                                           </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> In B_init                                                                                           </span><span style="font-weight:bold;">
+
+EVENT time: 935.286987,  type: 1, fromlayer3  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100001011000010110000101100001                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 011                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending a new Packet.                                                                               </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Start a timer                                                                                       </span><span style="font-weight:bold;">
+
+EVENT time: 942.652161,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100001011000010110000101100001                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 011                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Frame Successfully, Total Successful: 1                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Sending Packet to layer3                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 945.286987,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100001011000010110000101100001                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 011                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 947.437012,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101011010011000010110000101100001                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 951.904297,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000001011010000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000001111111100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 955.286987,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100001011000010110000101100001                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 011                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 964.715393,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100001011000010110000101100001                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 011                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Ignore this frame because already get this message.                                                 </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 965.286987,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100001011000010110000101100001                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 011                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 972.178284,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Ack Successfully. Total Acknowledgment: 1                                                       </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Stop Timer                                                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 974.305664,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101011010011000010110000101100001                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 976.671997,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000001011010000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000001111111100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1408.607056,  type: 1, fromlayer3  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending a new Packet.                                                                               </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Start a timer                                                                                       </span><span style="font-weight:bold;">
+
+EVENT time: 1412.765625,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Frame Successfully, Total Successful: 1                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Sending Packet to layer3                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1418.607056,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1424.445068,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101011010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1426.320312,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Get a Negative ACK.                                                                                 </span><span style="font-weight:bold;">
+
+EVENT time: 1428.607056,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1438.607056,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1439.913452,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Ignore this frame because already get this message.                                                 </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1445.492065,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000001011010000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1448.607056,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1451.741943,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000001011010000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1455.403687,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Get a Negative ACK.                                                                                 </span><span style="font-weight:bold;">
+
+EVENT time: 1456.561279,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101011010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1458.607056,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1464.224731,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101011010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1465.472046,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000001011010000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1468.607056,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1470.413452,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101011010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being lost                                                               </span><span style="font-weight:bold;">
+
+EVENT time: 1478.607056,  type: 0, timerinterrupt   entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1481.624146,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100010011000100110001001100010                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Ignore this frame because already get this message.                                                 </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1486.378174,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Ack Successfully. Total Acknowledgment: 1                                                       </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Stop Timer                                                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1497.662354,  type: 1, fromlayer3  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100011011000110110001101100011                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending a new Packet.                                                                               </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Start a timer                                                                                       </span><span style="font-weight:bold;">
+
+EVENT time: 1503.049194,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100011011000110110001101100011                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Frame Successfully, Total Successful: 2                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Sending Packet to layer3                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1504.753418,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Ack Successfully. Total Acknowledgment: 2                                                       </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Stop Timer                                                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1662.370728,  type: 1, fromlayer3  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100100011001000110010001100100                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending a new Packet.                                                                               </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Start a timer                                                                                       </span><span style="font-weight:bold;">
+
+EVENT time: 1671.805176,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100100011001000110010001100100                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Frame Successfully, Total Successful: 3                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Sending Packet to layer3                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1672.370728,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100100011001000110010001100100                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1680.631104,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Ack Successfully. Total Acknowledgment: 3                                                       </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Stop Timer                                                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1682.218750,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000001111111101100100011001000110010001100100                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Ignore this frame because already get this message.                                                 </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1684.963989,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Ignore this ack because already get ack.                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1720.560303,  type: 1, fromlayer3  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_output                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100101011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending a new Packet.                                                                               </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Start a timer                                                                                       </span><span style="font-weight:bold;">
+
+EVENT time: 1730.048462,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100101011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Frame Successfully, Total Successful: 4                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Sending Packet to layer3                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1730.560303,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100101011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1732.553711,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000011101010100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 001                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1738.339966,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101011010011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1740.560303,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100101011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1744.240967,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000001011010000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1745.824829,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101011010011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1747.163086,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000101011010000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1750.560303,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100101011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1752.410156,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Get a Negative ACK.                                                                                 </span><span style="font-weight:bold;">
+
+EVENT time: 1756.485596,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000001011010000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1759.481934,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101011010011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1760.560303,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100101011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1761.353882,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000101011010000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 100                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1762.502930,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000001101010100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 011                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1764.734009,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100101011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a Data frame.                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Ignore this frame because already get this message.                                                 </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending ACK                                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1770.071411,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Get a Negative ACK.                                                                                 </span><span style="font-weight:bold;">
+
+EVENT time: 1770.560303,  type: 0, timerinterrupt   entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_timer_interrupt                                                                                </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Retransmit Packet                                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101100101011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 000                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;">           tolayer1: packet being corrupted                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1772.336060,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Ignore this ack because already get ack.                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1774.449463,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> Get Ack Successfully. Total Acknowledgment: 4                                                       </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Stop Timer                                                                                          </span><span style="font-weight:bold;">
+
+EVENT time: 1781.466919,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000010000000000000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 110                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Ignore this ack because already get ack.                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1784.788696,  type: 2, fromlayer1  entity: 0
+</span><span style="color:black;background-color:yellow;"> In A_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000000000000011111111101011010011001010110010101100101                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 111                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:red;"> Corrupted packet received.                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Sending NACK                                                                                        </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+
+EVENT time: 1786.385132,  type: 2, fromlayer1  entity: 1
+</span><span style="color:black;background-color:yellow;"> In B_input                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:black;background-color:yellow;"> %%%%%%  In CRC calculation:                                                                         </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Input Bit String: 00000001000000000000000100000000000000000000000000000000                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Generator polynomial: 1011                                                                     </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> %%%  Calculated CRC: 101                                                                            </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Get a ACK frame.                                                                                    </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:#3333FF;"> Ignore this ack because already get ack.                                                            </span><span style="font-weight:bold;">
+ Simulator terminated at time 1786.385132
+ after sending 5 frames from layer3
+</span><span style="color:white;background-color:green;"> Statistics                                                                                          </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> A sends 1 frames successfully.                                                                      </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> A receives 4 frames successfully.                                                                   </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> B sends 4 frames successfully.                                                                      </span><span style="font-weight:bold;">
+</span><span style="color:white;background-color:green;"> B receives 1 frames successfully.                                                                   </span><span style="font-weight:bold;">
+</span>
+</pre>
+</body>
+</html>
